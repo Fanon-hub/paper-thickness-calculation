@@ -5,3 +5,5 @@ folded_thickness = Thickness*(2**43)
 
 #print the result
 print("Thickness:{} metres".format(folded_thickness))
+# Convert meters to kilometers and display with two decimal points 
+print("Thickness: {:.2f} kilometers".format(folded_thickness / 1000))
